@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #12263a;
+  background: #f3f7fb;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card {
+  display: grid;
+  gap: 12px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 22px rgba(16, 26, 40, 0.08);
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+
+select, textarea, button {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c5d3e6;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  background: #0059ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+pre {
+  margin-top: 16px;
+  background: #0f172a;
+  color: #d9e4ff;
+  border-radius: 8px;
+  padding: 14px;
+  min-height: 120px;
+  overflow: auto;
+}
